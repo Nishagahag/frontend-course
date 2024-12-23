@@ -1,0 +1,15 @@
+#m{
+display: flex;
+background-color: black;
+color: white;
+justify-content: space-evenly;
+
+
+}
+button{
+    font-size: x-large;
+    background: green;
+    color: white;
+    border-radius: 10px;
+    border: solid;
+}

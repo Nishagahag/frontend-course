@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form method="post" action="">
+      <div>
+        <label for="name">Name:</label>
+        <input
+          id="name"
+          type="text"
+          name="fullname"
+          placeholder="Enter you fullname"
+        />
+      </div>
+      <br />
+      <div>
+        <label>Password:</label>
+        <input type="password" />
+      </div>
+      <br />
+      <div>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" />
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" />
+        <label>Female</label>
+      </div>
+      <br />
+      <div>
+        <label>Country: </label>
+        <select name="country">
+          <option>Select an option</option>
+          <option value="nepal" selected>Nepal</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Message:</label><br />
+        <textarea name="message" cols="30" rows="4"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="newsletter" />
+        <label>Do you want to subscribe to our newsletter?</label>
+      </div>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56530.20619363475!2d83.39133649778373!3d27.682132864120668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996864275d9755f%3A0x2b1e92d89d4bb3ae!2z4KSs4KWB4KSf4KS14KSy!5e0!3m2!1sne!2snp!4v1734506253502!5m2!1sne!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <br />
+      <div>
+        <a href="https://www.facebook.com/"
+          ><img src="/public/fb1.jpg" height="30px" width="35px"
+        /></a>
+      </div>
+      <br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

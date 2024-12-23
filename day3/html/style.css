@@ -1,0 +1,43 @@
+
+.main
+{   background-color: dodgerblue;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size:large;
+    justify-content:space-around;
+ 
+
+}
+#appon
+{
+    border: solid;
+    padding: 10px 40px 10px 40px;
+    font-size: x-large;
+    border-radius: 30px;
+    color: dodgerblue;
+    background-color: white;
+    border-width: 4px;
+}
+
+.main1{
+ display: flex;
+ padding: 20px;
+ text-align: center;
+ justify-content:space-around;
+
+}
+
+
+
+.main2{
+    background-color: dodgerblue;
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
