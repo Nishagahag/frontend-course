@@ -1,15 +1,43 @@
-#m{
-display: flex;
-background-color: black;
-color: white;
-justify-content: space-evenly;
 
+.m
+{   background-color: dodgerblue;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size:large;
+    justify-content:space-around;
+ 
 
 }
-button{
-    font-size: x-large;
-    background: green;
-    color: white;
-    border-radius: 10px;
+#app
+{
     border: solid;
+    padding: 10px 40px 10px 40px;
+    font-size: x-large;
+    border-radius: 30px;
+    color: dodgerblue;
+    background-color: white;
+    border-width: 4px;
+}
+
+.m1{
+ display: flex;
+ padding: 20px;
+ text-align: center;
+ justify-content:space-around;
+
+}
+
+
+
+.m2{
+    background-color: dodgerblue;
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
